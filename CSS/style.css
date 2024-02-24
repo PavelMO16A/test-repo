@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+body{
+    font-family: 'Outfit', 'Poppins', 'Roboto';
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__img{
+    width: 125px;
+    height: 125px;
+    margin-top: 25px;
+    margin-left: -50px;
+}
+.link{
+    font-family: 'Outfit', 'Poppins', 'Roboto';
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    padding-left: 20px;
+    font-size: 24px;
+}
+p{
+    font-family: 'Outfit';
+    font-weight: 800;
+}
